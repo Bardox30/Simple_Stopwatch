@@ -5,6 +5,7 @@ now = datetime.now() # current date and time
 
 newDateNow=datetime.now()
 newDatePast=datetime(2020,3,15)
+time_passed=newDateNow-newDatePast
 
 year = now.strftime("%Y")
 print("year:", year)
@@ -22,4 +23,4 @@ date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
 print("date and time:",date_time)
 print("From day: ",newDatePast)
 print("To: ",newDateNow)
-print("Has passed: ",newDateNow-newDatePast)
+print("Has passed: ",time_passed)
