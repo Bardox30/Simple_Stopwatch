@@ -11,7 +11,7 @@ def time_convert(sec):
   print("Time Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),sec))
 
 
-input("Press Enter to start")
+input("\nPress Enter to start")
 start_time = time.time()
 
 input("Press Enter to stop")
@@ -20,6 +20,6 @@ end_time = time.time()
 time_lapsed = end_time - start_time
 time_started=timedelta(((time_lapsed/24)/60)/60)
 
-print("Time started: ",time_ended-time_started)
+print("\nTime started: ",time_ended-time_started)
 time_convert(time_lapsed)
-print("Time finished: ",time_ended)
+print("Time finished: ",time_ended,"\n")
