@@ -11,7 +11,7 @@ def time_convert(sec):
   print("Time Lapsed = {0}:{1}:{2}".format(int(hours),int(mins),sec))
 
 
-input("\nPress Enter to start")
+input("\nPress Enter to start\n\n")
 start_time = time.time()
 
 input("Press Enter to stop")
